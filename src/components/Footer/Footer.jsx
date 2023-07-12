@@ -1,17 +1,19 @@
-import { Component } from "react";
+import React from 'react';
 import css from './Footer.module.css';
 import PropTypes from 'prop-types';
 
-export class Footer extends Component {
-    render() {
-        return (
+const Footer = () => {
+    return (
         <div className={css.footer_container}>
-            <p className={css.footer}>© 2023 Feedback. All rights reserved. Created by Estar0ssa1</p>
+        <p className={css.footer}>
+            © 2023 Feedback. All rights reserved. Created by Estarossa1
+        </p>
         </div>
-        );
-    }
-    }
+);
+};
 
 Footer.propTypes = {
     children: PropTypes.node,
 };
+
+export default Footer;
