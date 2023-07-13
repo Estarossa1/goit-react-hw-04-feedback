@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { getRandomColor } from '../../utils/getRandom';
 
 export const NotificationWrapper = styled.div`
     background-color: #9c9c9c;
